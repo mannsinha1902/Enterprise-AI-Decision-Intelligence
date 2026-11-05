@@ -1,0 +1,56 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python caches and test/build output
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+
+# Generated models, datasets, and experiment tracking
+artifacts/
+data/
+datasets/
+mlruns/
+mlartifacts/
+logs/
+
+# Local databases
+mlflow.db*
+*.db
+*.sqlite
+*.sqlite3
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.secrets
+*.credentials
+credentials/
+secrets/
+
+# Generated data and private keys
+*.pyc
+*.csv
+*.parquet
+*.xlsx
+*.jsonl
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.token
+postgres_data/
